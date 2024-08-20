@@ -1,0 +1,221 @@
+
+@media screen and (max-width:1270px) and (min-width:700px)
+{
+    Body{
+    Background :linear-gradient(to top left,blue, black);
+    Height:100vh;
+    Color:white;
+}
+
+.all{
+    Direction:rtl;
+}
+.lienf{
+    Display :flex;
+    Justify-content :center ;
+    Align-items :center ;
+    
+}
+.liend{
+    Padding-right :15px;
+    Padding-bottom :8px;
+    Margin-right:6px; 
+}
+.liens{
+    
+    font-size :75px;
+    font-family: "Tajawal", sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6,h7{
+    Padding:0px;
+    Margin :0px;
+    
+}
+.pray{
+    Display:flex;
+    Justify-content:space-evenly ;  
+    Align-items:center ;
+    Background :none;
+    
+    
+}
+.sel{
+    margin-top:100px;
+    Display:flex;
+    Flex-direction :column-reverse;
+    Gap:50px;
+    Justify-content :flex-end;
+    Align-items :center;
+    Height :200px;
+}
+select{
+    Width :200px; 
+    Height :50px;
+    Background :transparent ;
+    Color:white ;
+    Font-size :34px;
+    Box-shadow :0px 3px 18px #89FA5C;
+}
+option{
+    
+    Background :red ;
+    Color:white ;
+    Font-size :34px;
+    Box-shadow :0px 3px 18px #89FA5C;
+}
+.time{
+Font-family:"tajawal" serif;
+Font-size :24px;
+    Display :flex;
+    Flex-direction :column;
+    Justify-content :space-evenly ;
+    Align-items :center;
+    Border-radius :35% ;
+    Background :black ;
+    Width :130px;
+    Height :300px;
+    Box-shadow :0px 3px 18px #89FA5C;
+}
+#fjr{
+    
+    Border-radius :13% ;
+    
+}
+
+#city{
+    
+   
+}
+#imgg{
+    Display :none;
+    Box-shadow :25px 20px 20px white;
+    Border-radius :50%;
+    Transition:box-shadow 5s ease-in infinite;
+}
+#imgg:hover, #imgpray:hover{
+    
+    Box-shadow :-25px -20px 20px white;
+}
+
+#imgpray{
+    Box-shadow :2px 2px 20px blue;
+    Border-radius :50px;
+    Transition:box-shadow 5s ease-in;
+    Width:500px;
+    Height:850px;
+    
+}        
+}
+
+@media screen and (max-width:699px){
+    
+   Body{
+    Background :linear-gradient(to top left,blue, black);
+    Height:100vh;
+    Color:white;
+} 
+    
+
+.all{
+    Direction:rtl;
+}
+.liend{
+    Padding-right :15px;
+    Padding-bottom :8px;
+    Margin-right:6px; 
+}
+.liens{
+    
+    font-size :45px;
+    font-family: "Tajawal", sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6,h7{
+    Padding:0px;
+    Margin:0px;
+    
+}
+.pray{
+    Display:flex;
+    Flex-wrap :wrap;
+    Flex-direction :row;
+    Justify-content:center ;  
+    Align-items:center ;
+    Background :transparent ;
+    Gap:8px;
+    ;
+    
+}
+.sel{
+margin-top:50px;
+    Display:flex;
+    Flex-direction :column-reverse;
+    Justify-content :flex-end;
+    Align-items :center;
+    Width:100%;
+  
+    Gap:26px;
+}
+select{
+    Width :200px; 
+    Height :50px;
+    Background :transparent ;
+    Color:white ;
+    Font-size :34px;
+    Box-shadow :0px 3px 18px #89FA5C;
+}
+option{
+    
+    Background :red ;
+    Color:white ;
+    Font-size :34px;
+    Box-shadow :0px 3px 18px #89FA5C;
+}
+.time{
+    Display :flex;
+    Flex-grow:1;
+    Flex-direction :row;
+    Justify-content :center;
+    Align-items :center ;
+    Border-radius :35% ;
+    Background :black ;
+    Gap:10px;
+    Width :130px;
+    Font-size:15px;
+    Box-shadow :0px 3px 18px #89FA5C;
+}
+#fjr{
+    
+    Border-radius :13% ;
+    
+}
+
+#city{
+    
+   
+}
+#imgg{
+    Display :none;
+    Box-shadow :2px 2px 20px white;
+    Border-radius :50px;
+    Transition:box-shadow 5s ease-in;
+    Width:306px;
+    Height:280px;
+}
+imgg:hover{
+    Pointer:cursor;
+    Box-shadow :-2px -2px 20px white;
+    
+}
+}
+#imgpray{
+    
+    Box-shadow :2px 2px 20px white;
+    Border-radius :50px;
+    Transition:box-shadow 5s ease-in;
+    Width:306px;
+    Height:506px;
+    
+}
+} 
